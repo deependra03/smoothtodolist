@@ -1,2 +1,22 @@
-# smoothtodolist
-simple todo list chrome extension
+# Smooth Todo List
+simple todo list chrome extension to manage task list
+    
+# Manifest version 3
+
+
+        {
+            "manifest_version": 3,
+            "name": "Smooth TODO",
+            "version": "1.0.0",
+            "description": "A simple TODO list",
+            "action": {
+                "default_popup": "index.html",
+                "default_icon": "todo.png"
+            },
+            "icons": {
+                "16": "todo.png",
+                "32": "todo.png",
+                "48": "todo.png",
+                "128": "todo.png"
+            }
+        }
